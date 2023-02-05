@@ -1,0 +1,386 @@
+<script>
+
+
+	let src = 'https://www.sculpteo.com/wp-content/uploads/2022/01/fusion360-1-1.jpg';
+	let name = 'Gun Detector';
+	let stat = 'https://cdn.britannica.com/31/4431-004-B067AEDE/bar-graph-individuals-status.jpg';
+	let name1 = 'stats';
+</script>
+<img class = 'machine' src='src/prototype.png'>
+
+
+<main>
+	<h1 style = 'color: white'> The <span style = 'color: black'>MPWD</span> </h1>
+		<p class = "typed">Have you ever felt unsafe?</p>
+		<p class = "typed1">We are here to help you.</p>
+		
+	<header>
+		<div class="container">
+			<h1 class="logo"></h1>
+	
+			<nav>
+			<ul>
+				<li><a href="#" style = 'color: white'>Home</a></li>
+				<li><a href="#about" style = 'color: white'>About</a></li>
+			
+			</ul>
+			</nav>
+		</div>
+	</header>
+	<h1 class = "content"> Imagine...</h1>
+	<p class = "content1">A world with no violence.</p>
+	<p class = "content2">Is that even possible?</p>
+	<p class = "content3">The Detector can definitely help the dream come true.</p>
+	<img class = 'stat' src="https://ichef.bbci.co.uk/news/976/cpsprodpb/A184/production/_125384314_gun_related_crimes_640-2x-nc.png.webp" alt='statistics'>
+	<p class = "content4">Although gun violence is the most pressing issue right now, <br>The MPWD can also detect other weapons.</p>
+
+	<h1 id='about'>What is The Multi-Part Weapon <br><center>Detection (MPWD) system?</center> </h1>
+	<p class = "step1">Step 1: Weapon ID</p>
+	<p class = "step11">Electromagnetic waves scans area and reflect off<br> people’s clothes and skin. Then returns an image<br> to be interpreted and evaluate the potential threat</p>
+	<p class = "step2">Step 2: Device Detection</p>
+	<p class = "step22">Check registration of weapon by cross checking<br>database with valid weapons</p>
+	<p class = "step3">Step 3: Alert Authorities</p>
+	<p class = "step33">After analyzing the situation and determining <br>the level of threat, use geographic sensing software<br> to alert local authorities of the issue</p>
+	<p class = "step4">Step 4: Disassemble Weapon</p>
+	<p class = "step44">Since it takes time for the authorities to arrive,<br> the device should execute a partial or full dismantle<br> of the weapon and safely break down the<br> contents of it</p>
+
+	<img class = 'description' src='src/HackSC.png'>
+
+
+
+</main>
+
+
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Condensed&family=Rubik&display=swap');
+  	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@400;500&family=Roboto+Condensed&family=Rubik&display=swap');
+
+	h1 {
+		font-family: 'rubik', sans-serif;
+		font-size:70px;
+		color: aquamarine;
+		line-height: 1.6;
+		position: absolute;
+  		top: 40%;
+  		left: 55.5%;
+  		transform: translate(-50%, -50%);
+	}
+
+	.step1{
+		font-family: 'rubik', sans-serif;
+		font-size:40px;
+  		margin-top: 170px;
+  		margin-left:2%;
+	}
+
+	.step11{
+		font-family: 'rubik', sans-serif;
+		font-size:30px;
+  		margin-top: 0px;
+  		margin-left:2%;
+	}
+
+	.step2{
+		font-family: 'rubik', sans-serif;
+		font-size:40px;
+  		margin-top: 70px;
+  		margin-left:2%;
+	}
+
+	.step22{
+		font-family: 'rubik', sans-serif;
+		font-size:30px;
+  		margin-top: 0px;
+  		margin-left:2%;
+	}
+
+	.step3{
+		font-family: 'rubik', sans-serif;
+		font-size:40px;
+  		margin-top: 70px;
+  		margin-left:2%;
+	}
+
+	.step33{
+		font-family: 'rubik', sans-serif;
+		font-size:30px;
+  		margin-top: 0px;
+  		margin-left:2%;
+	}
+
+	.step4{
+		font-family: 'rubik', sans-serif;
+		font-size:40px;
+  		margin-top: 70px;
+  		margin-left:2%;
+	}
+
+	.step44{
+		font-family: 'rubik', sans-serif;
+		font-size:30px;
+  		margin-top: 0px;
+  		margin-left:2%;
+	}
+
+	.stat{
+		width: 500px;
+  		height: 400px;
+		margin-left: 100px;
+		margin-top: 350px;
+		opacity: 1;
+	} 
+	.description{
+		display: block;
+		margin-top: -1000px;
+		height: 1000px;
+  		float: right;
+  		width: 50%;
+	} 
+
+	.content{
+		font-family: 'rubik', sans-serif;
+		font-size:70px;
+		color: rgb(0, 0, 0);
+		line-height: 1.6;
+		position: absolute;
+  		top: 115%;
+		margin-left: -40%;
+  		
+	}
+
+	.content1{
+		font-family: 'rubik', sans-serif;
+		font-size:30px;
+		color: rgb(0, 0, 0);
+		line-height: 1.6;
+		position: absolute;
+  		margin-top: 10%;
+		margin-left: 10%;
+
+		overflow: hidden;
+		border-right: .15em solid rgb(0, 0, 0);
+		white-space: nowrap;
+		font-size: 1.6rem;
+		width: 0;
+
+		animation:
+		typing1 2s steps(20, end) forwards,
+      	blink .8s ;
+	}
+	
+
+	.content2{
+		font-family: 'rubik', sans-serif;
+		font-size:30px;
+		color: rgb(0, 0, 0);
+		line-height: 1.6;
+		position: absolute; 
+		margin-top: 14%;
+		margin-left: 15%;
+		
+		overflow: hidden;
+		border-right: .15em solid rgb(0, 0, 0);
+		white-space: nowrap;
+		font-size: 1.6rem;
+		width: 0;
+
+		animation:
+		typing2 2s steps(20, end) forwards,
+      	blink .8s ;
+
+		animation-delay: 2s;
+  		
+	}
+
+	.content3{
+		font-family: 'rubik', sans-serif;
+		font-size:30px;
+		color: rgb(0, 0, 0);
+		line-height: 1.6;
+		position: absolute; 
+		margin-top: 18%;
+		margin-left: 20%;
+
+		overflow: hidden;
+		border-right: .15em solid rgb(0, 0, 0);
+		white-space: nowrap;
+		font-size: 1.6rem;
+		width: 0;
+
+		animation:
+		typing3 4s steps(30, end) forwards,
+      	blink .8s ;
+		
+		animation-delay: 4s;
+	}
+
+	.content4{
+		font-family: 'rubik', sans-serif;
+		font-size:40px;
+		color: rgb(0, 0, 0);
+		line-height: 1.6;
+		position: absolute;
+  		top: 155%;
+		margin-left: 45%;
+  		
+	}
+
+	@keyframes typing1 {
+  		from { width: 0% }
+  		to { width: 21% }
+	}
+	@keyframes typing2 {
+  		from { width: 0% }
+  		to { width: 18% }
+	}
+	@keyframes typing3 {
+  		from { width: 0% }
+  		to { width: 46% }
+	}
+	@keyframes blink {
+		20% {
+    	border-color: transparent
+  		}
+	}
+
+	#about{
+		font-family: 'rubik', sans-serif;
+		font-size:40px;
+		color: rgb(0, 0, 0);
+  		top: 210%;
+		float: left;
+  		
+	}
+
+	.machine {
+		opacity: 1;
+		width: 1500px;
+  		height: 800px;
+		
+		object-fit: cover;
+	}
+	.typed {
+		font-family: 'rubik', sans-serif;
+		font-size:30px;
+		color: rgb(255, 255, 255);
+		line-height: 1.6;
+		position: absolute;
+  		top: 50%;
+  		left: 45%;
+		overflow: hidden;
+		border-right: .15em solid rgb(255, 255, 255);
+		white-space: nowrap;
+		font-size: 1.6rem;
+		width: 0;
+		animation: 
+      	typing 2s steps(20, end) forwards,
+      	blink .8s infinite;
+	}
+	.typed1 {
+		font-family: 'rubik', sans-serif;
+		font-size:30px;
+		color: rgb(0, 0, 0);
+		line-height: 1.6;
+		position: absolute;
+		overflow: hidden;
+		border-right: .15em solid rgb(0, 0, 0);
+		white-space: nowrap;
+		top: 55%;
+  		left: 45%;
+		font-size: 1.6rem;
+		width: 0;
+		animation: 
+      	typing 2s steps(20, end) forwards,
+      	blink .8s infinite;
+		animation-delay: 3s;
+	}
+	@keyframes typing {
+  		from { left: 60% }
+  		to { width: 27% }
+	}
+	@keyframes blink {
+		20% {
+    	border-color: transparent
+  		}
+	}
+	
+	
+	ul {
+		margin: 0px;
+		padding: 0;
+		background: black; 
+		font-family: 'rubik', sans-serif;
+		font-weight: 800;
+
+	}
+
+	.container {
+		width: 80%;
+		margin: 0 auto;
+		
+	}
+
+	header {
+		background: black;
+	}
+
+	header::after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+
+	.logo {
+		float: left;
+		padding: 10px 0;
+	}
+
+	nav {
+	float: left;
+	}
+
+	nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 80px;
+	}
+
+	nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 30px;
+
+	position: relative; 
+	}
+
+	nav a {
+	color: #443;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	}
+
+	nav a:hover {
+	color: #000;
+	}
+
+	nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	background-color: rgb(255, 255, 255);
+
+	position: absolute;
+	top: 0;
+	width: 0%;
+
+	transition: all ease-in-out 250ms;
+	}
+
+	nav a:hover::before {
+	width: 100%;
+	}
+
+
+</style>
